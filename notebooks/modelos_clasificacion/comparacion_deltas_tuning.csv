@@ -1,0 +1,5 @@
+Modelo,Δ Accuracy,Δ Precision,Δ Recall,Δ F1-Score,Δ AUC
+Regresión Logística,0.0826,0.1404,-0.1141,0.0651,0.0114
+Árbol de Decisión,-0.0301,-0.0037,0.2171,0.0822,0.0818
+Random Forest,-0.0049,-0.2794,0.3312,0.2498,-0.007
+XGBoost,-0.0049,-0.0587,0.1084,0.0431,0.0134
