@@ -1,0 +1,27 @@
+{
+  "modelo": "LightGBM Regressor",
+  "target": "salary (USD)",
+  "features_numericas": [
+    "experience_years",
+    "skills_count",
+    "certifications"
+  ],
+  "features_categoricas": [
+    "job_title",
+    "education_level",
+    "industry",
+    "company_size",
+    "location",
+    "remote_work"
+  ],
+  "metricas_test": {
+    "mae": 4140.565252766639,
+    "rmse": 5188.936381113245,
+    "r2": 0.9806789767234273,
+    "mape": 0.03049252007026537
+  },
+  "split": {
+    "test_size": 0.3,
+    "random_state": 42
+  }
+}
